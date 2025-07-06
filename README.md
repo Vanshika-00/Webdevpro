@@ -38,21 +38,6 @@ The course is divided into several phases, covering everything from web fundamen
 - Full-stack application development (MERN stack)  
 - AI-powered apps with **TensorFlow.js** and **Langchain**
 
----
-
-## 💾 Folder Structure:
-
-Webdevpro/
-├── Phase0-Introduction/
-│ ├── notes.md
-│ └── shortcuts-and-tools.md
-├── Phase1-Foundations/
-├── Phase2-Backend/
-├── Phase3-React/
-├── Phase4-Fullstack/
-├── README.md
-└── .gitignore
-
 
 ---
 
@@ -72,3 +57,21 @@ Webdevpro/
 ---
 
 > _"Code it like you mean it."_ 🔥
+
+---
+
+## 💾 Folder Structure:
+
+```plaintext
+
+
+Webdevpro/
+├── Phase0-Introduction/
+│ ├── notes.md
+│ └── shortcuts-and-tools.md
+├── Phase1-Foundations/
+├── Phase2-Backend/
+├── Phase3-React/
+├── Phase4-Fullstack/
+├── README.md
+└── .gitignore
