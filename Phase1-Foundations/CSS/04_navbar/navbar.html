@@ -17,7 +17,7 @@
 
         }
         h2{
-            margin-bottom: 10px;
+            margin-bottom: 30px;
         }
         .nav1{
             background-color: #e7ebef;
@@ -102,6 +102,45 @@
 
 
         }
+        .nav3 {
+            background-color: #56a9e1;
+            padding : 10px;
+        }
+        .nav3 ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .nav3 a{
+            text-decoration:none;
+            color: #fff;
+            padding: 10px;
+            display: block;
+        }
+        .nav3 .dropdown-content{
+            display: none;
+        }
+        .nav3 .dropdown:hover .dropdown-content{
+            display: block;
+            position: absolute;
+            background-color: #87c3eb;
+            min-width: 150px;
+
+        }
+        .nav3 .login-btn{
+            background-color: #faf7fa;
+            color: #0c0b0b;
+            padding: 5px 10px;
+            border-radius: 20px;
+            border: none;
+        }
+        .nav3 a:hover{
+            background-color: #604ca2;
+        }
         
     </style>
   </head>
@@ -136,14 +175,15 @@
         <nav class="nav3">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li class="Dropdown">
+                <li class="dropdown">
                     <a href="#">About</a>
-                    <div class="Dropdown content">
+                    <div class="dropdown-content">
                     <a href="#">Our Story</a>
                     <a href="#">Team</a>
                     <a href="#">Contact</a></div>
                 
                 </li>
+                <li><a href="#">Products</a></li>
                 <li><button class="login-btn">Login</button></li>
             </ul>
         </nav>
